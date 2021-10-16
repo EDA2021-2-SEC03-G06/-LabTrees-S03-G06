@@ -1,0 +1,9 @@
+a) ¿Qué relación encuentra entre el número de elementos en el árbol y la altura del árbol?
+Es una relacion directamente proporcional, esto debido a que en un BST mientras mas elementos tengamos y viendonos con la imposicion de las dos ramas (izquierda y derecha) se hace evidente que la altura del arbol tiene que incrementarse.
+b) ¿Si tuviera que responder esa misma consulta y la información estuviera en tablas de hash y no
+en un BST, cree que el tiempo de respuesta sería mayor o menor? ¿Por qué?
+Seria menor, esto debido a que las consultas en una tabla de hash se pueden hacer en O(k) mientras que para hacer una consulta en esta estructura (BST) requerimos pasar por muchas ramas para llegar a la que deseamos (En el peor caso lo debemos recorrer todo)
+c) ¿Qué operación del TAD se utiliza para retornar una lista con la información encontrada en un rango de fechas?
+Se utiliza la operacion values de la libreria ordered map, esta funcion tiene como parametros el BST en el que se encuentra la informacion, un valor minimo y un valor maximo. Esta funcion lo que hace es retornar todos los valores que tienen una llave entre el minimo y el maximo.
+
+URL Repositorio:https://github.com/EDA2021-2-SEC03-G06/-LabTrees-S03-G06.git

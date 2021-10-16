@@ -42,7 +42,6 @@ tablas de simbolos.
 # API del TAD Catalogo de Libros
 # -----------------------------------------------------
 
-
 def newAnalyzer():
     """ Inicializa el analizador
 
